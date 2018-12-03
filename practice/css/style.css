@@ -1,4 +1,11 @@
-body { background-color: #7D0646; }
+body { 
+	background-color: #7D0646; }
 
-h1, p { color: lightgrey;
-font-family: "Georgia", serif;  }
+h1, p { 
+	color: lightgrey;
+	font-family: "Georgia", serif;  
+	}
+
+h2 {
+	font-family: "Trattatello", fantasy;
+}
