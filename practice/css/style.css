@@ -1,11 +1,14 @@
 body { 
 	background-color: #5E0029; }
 
-h1, p { 
+h1, { 
 	color: lightgrey;
-	font-family: "Georgia", serif;  
+	font-family: "Arial", sans-serif; 
+	font-size: 25px;
+	font-weight: normal; 
 	}
 
-h2 {
+h2, p, {
 	font-family: "Trattatello", fantasy;
-}
+	font-color:#C8E5DB;
+} 
