@@ -1,6 +1,10 @@
 body { 
 	background-color: #5E0029; }
 
+nav { text-align: center;
+
+}
+
 h1 { 
 	font-family: "Georgia", serif; 
 	font-size: 45px;
