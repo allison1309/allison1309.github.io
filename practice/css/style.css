@@ -2,13 +2,15 @@ body {
 	background-color: #5E0029; }
 
 h1 { 
-	font-family: "Arial", sans-serif; 
+	font-family: "Georgia", serif; 
 	font-size: 45px;
-	font-weight: normal; 
 	color: #C8E5DB;
+	text-align: center;
 	}
 
 h2, p {
 	font-family: Arial, sans-serif;
 	color: #C8E5DB;
+	text-align: center;
+	font-weight: normal;
 	} 
