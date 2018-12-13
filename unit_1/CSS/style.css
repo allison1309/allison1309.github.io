@@ -1,8 +1,21 @@
 
 body {
-	background-color: darkgreen;
+	background-color: palegreen;
 }
 
-h1, p {
+h1 {
 	color: white;
+	font-size: 100px;
+	border-color: black;
+	border-style: dotted;
+	border-width: 10px;
+	text-align: center;
+	margin: 25px;
+	padding: 30px;
+
+}
+
+p { 
+	text-align: center;
+
 }
