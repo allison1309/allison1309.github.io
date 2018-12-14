@@ -2,12 +2,14 @@
 padding:0;
 box-sizing:border-box;}
 
-body {background:#8A8993;}
+body {
+	font-family: Helvetica, sans-serif;
+	
+}
 
-#above-the-fold{
-	background-color: #101012;
+.hero-image{
+	background: url(images/freesnacks.jpg);
 	text-align: center;
-	/*background:url("https://www.flickr.com/photos/79317884@N00/46117974161/in/album-72157673918854497/");*/
 
 }
 
