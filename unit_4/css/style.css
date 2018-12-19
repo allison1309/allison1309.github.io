@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800|Volkhov:700');
+
+
+*{margin:0;
+padding:0;
+box-sizing:border-box;}
+
+body {
+	line-height: 1.5;
+	color:#001319;
+	font-size: 18px;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+
+}
+
+
+/*.hero-image{*/
+	/*background: url(images/FreeSnacks.jpg);*/
+	/*background-repeat: no-repeat;*/
+  	/*background-position: right top;*/
+  	/*background-attachment: fixed;*/
+  	/*background-size: auto;*/
+	/*text-align: center;*/
+ 
+/*}*/
+
+
+header{
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+
+}
+
+button{
+	border-radius: 100%;
+	font-size:0.5em;
+	text-align: center;
+	padding: 10px;
+}
+header a{
+	float: right;
+	text-decoration: none;
+	color: black;
+}
+h1{
+	color: #125b73;
+	font-family: 'Ribeye', 'Georgia', serif;
+	font-size: 6.5em;
+	text-align: center;
+	line-height: 1.15;
+
+}
+
+#slogan{
+	color: black;
+	font-style: italic;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+
+div button{
+	padding: 30px 20px 30px 20px;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 1em;
+	margin: 0em auto;
+
+}
+
+button:hover
+{
+	background: rgba(21, 146, 117, .5);
+	font-weight: 800;
+}
+
+img{
+	width: 100%;
+}
+
+section {
+	margin: 2em auto;	
+	background: #DFE8E8;
+	width: 30em;
+	padding: 1.5em;
+
+}
+
+h2{
+	padding: 10px;
+	font-size: 2em;
+	font-family: 'Ribeye', 'Georgia', serif;
+
+}
+
+ul{
+	padding-left: 1.5em;
+	padding-bottom: 1em;
+}
+
+p{
+	
+	padding: 0.5em;
+	font-size: 1em;
+}
+
+a{ 
+	color: rgb(21, 146, 117);
+	text-decoration: none;
+	
+}
+
+.about-us{
+	background: rgba(21, 146, 117, .5) ;
+	padding: 2em;
+}
+
+.social a{
+	padding: 1em;
+}
+
+
+
+footer{
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+	font-weight: normal;
+	text-align: center;
+}
+
