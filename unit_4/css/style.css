@@ -39,23 +39,25 @@ header{
 	border-width: 1px;
 	border-style: solid;
 	padding: 10px;
+	background: black;
 
 }
 
-button{
+header button{
 	font-size:0.5em;
 	text-align: center;
+	padding: 5px;
 }
 
 header a{
 	float: right;
 	text-decoration: none;
-	color: black;
+	color: #DFE8E8;
 }
 h1{
 	color: #125b73;
 	font-family: 'Ribeye', 'Georgia', serif;
-	font-size: 4.5em;
+	font-size: 4em;
 	text-align: center;
 	line-height: 1.15;
 
@@ -64,19 +66,20 @@ h1{
 .hero-image button{
 	border-radius: 50%;
 	text-align: center;
-	font-size: .5em;
+	font-size: .55em;
 	margin: 1em;
 	height: 50px;
 	width: 50px;
 	font-weight: 400;
-	transition: font-weight 500ms;
+	transition: font-weight 400ms;
 
 }
 
 button:hover
 {
-	background: rgba(21, 146, 117, .5);
+	background: rgba(18, 91, 115, .5);
 	font-weight: 800;
+	color: #DFE8E8;
 
 }
 
