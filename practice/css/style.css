@@ -110,6 +110,7 @@ nav{
 
 }
 
+
 nav button{
 	font-size:0.5em;
 	text-align: center;
@@ -121,8 +122,13 @@ nav a{
 	text-decoration: none;
 	color: #DFE8E8;
 }
+
+nav a:hover {
+	color: #4DB298;
+}
+
 h1{
-	color: #1AB28F;
+	color: #4DB298;
 	font-family: 'Ribeye', 'Georgia', serif;
 	font-size: 4em;
 	text-align: center;
@@ -157,7 +163,7 @@ img{
 
 
 section {
-	margin: 2em auto;	
+	margin: 0px auto;	
 	background: #DFE8E8;
 	padding: 1.5em;
 
@@ -198,32 +204,40 @@ a{
 
 
 .social a{
-	padding: 1em;
+	padding: 1.5em;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between; 
 }
 
 article section {
-	float: left;
 	width: 30%;
-	height: 350px;
-	margin: 1em;
 }
 
 
-.clearfix:after {
+/*.clearfix:after {
     visibility: hidden;
     display: block;
     font-size: 0;
     content: " ";
     clear: both;
     height: 0;
-}
+}*/
 
 footer{
 	border-color: black;
 	border-width: 1px;
 	border-style: solid;
-	padding: 10px;
+	padding: .25em;
 	font-weight: normal;
 	text-align: center;
-	clear: left;
+	/*clear: left;*/
+}
+
+footer p {
+	font-size: .75em;
 }
