@@ -74,12 +74,15 @@ ul{
 	list-style-type: none;
 }
 
-li{
+ul li{
 	width: 100%;
 	max-width: 300px;
 	padding-bottom: 2em;
 }
 
+ol {
+	list-style-type: decimal;
+}
 p{
 	
 	padding: 0.5em;
@@ -206,7 +209,7 @@ img{
 	margin: 0 auto;
 }
 
-.wrapper {
+.sub-page {
 	background: #DFE8E8;
 }
 
