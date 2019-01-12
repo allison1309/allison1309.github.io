@@ -17,19 +17,25 @@ nav{
 	background: black;
 }
 
-nav button{
+/*nav button{
 	font-size:0.75em;
 	text-align: center;
 	padding: 5px;
 	transition: font-weight 200ms;
-}
+	float: right;
+}*/
 
 nav a{
 	float: right;
 	text-decoration: none;
 	color: #DFE8E8;
+	display: block;
+	padding: .5em;
 }
 
+.home {float: left;
+
+}
 nav a:hover {
 	color: #4DB298;
 }
@@ -203,3 +209,4 @@ img{
 .wrapper {
 	background: #DFE8E8;
 }
+
