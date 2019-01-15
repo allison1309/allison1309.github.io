@@ -299,7 +299,7 @@ img{
  		}
 	}
 
-	@media only screen and (max-width: 350px) {
+	@media only screen and (max-width: 360px) {
 
 		.shows {
 			height: 350px;
@@ -317,4 +317,23 @@ img{
 			padding: 0 0 .5em 0;
  		}
 
+	}
+
+	@media only screen and (max-width: 320px) {
+		.hero-image{
+			background-image: url(../images/FreeSnacks.jpg);
+			background-repeat: no-repeat;
+		  	background-position: right top;
+		  	background-size: 100% auto;
+			text-align: center;
+		 	overflow: hidden;
+		 	height: 65vw;
+		 	background-color: gray;
+		 	display: flex;
+		 	justify-content: space-between;
+		 	flex-direction: column;
+			 	align-items: center;
+		 	max-height: 1000px;
+		 	padding: 20px;
+ }
 	}
