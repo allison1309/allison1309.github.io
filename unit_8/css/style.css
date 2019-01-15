@@ -293,6 +293,10 @@ img{
 		.hero-image{
 			padding: .5em;
  		}
+
+ 		footer p {
+ 			font-size: .5em;
+ 		}
 	}
 
 	@media only screen and (max-width: 350px) {
