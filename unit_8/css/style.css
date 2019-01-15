@@ -216,7 +216,7 @@ img{
 	background: #DFE8E8;
 }
 
-@media only screen and (max-width: 675px) {
+@media only screen and (max-width: 725px) {
 	/*nav a {
 		margin: 0 auto;
 		float: right;
@@ -318,7 +318,7 @@ img{
 		.shows {
 			height: 400px;
 		}
-		
+
 		#social-container{ 
 			padding-left: .5em;
 			padding-right: .5em;
