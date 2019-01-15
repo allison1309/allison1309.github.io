@@ -308,4 +308,13 @@ img{
 		#social {
 			height: 250px;
 		}
+
+		h1 { 
+		font-size: 3em; 
+		}
+
+	.hero-image{
+			padding: 0 0 .5em 0;
+ 		}
+
 	}
