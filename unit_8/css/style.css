@@ -17,13 +17,6 @@ nav{
 	background: black;
 }
 
-/*nav button{
-	font-size:0.75em;
-	text-align: center;
-	padding: 5px;
-	transition: font-weight 200ms;
-	float: right;
-}*/
 
 nav a{
 	float: right;
@@ -34,15 +27,28 @@ nav a{
 	display: none;
 }
 
+label {
+	float: right;
+	text-decoration: none;
+	color: #DFE8E8;
+	display: block;
+	padding: .5em;
+	display:none;
+	
+}
 
 nav a:hover {
+	color: #4DB298;
+}
+
+label:hover{
 	color: #4DB298;
 }
 
 h1{
 	color: #1AB28F;
 	font-family: 'Ribeye', 'Georgia', serif;
-	font-size: 4em;
+	font-size: 3.5em;
 	text-align: center;
 	line-height: 1.15;
 	padding-top: 40px;
@@ -212,8 +218,28 @@ img{
 }
 
 @media only screen and (max-width: 675px) {
-	nav a {
+	/*nav a {
+		margin: 0 auto;
+		float: right;
+	}*/
+
+	label{
 		display: block;
+	}
+
+	#toggle:checked + nav {
+		display: block;
+	}
+
+	img{
+		width: 75px;
+		margin: 0 auto;
+		padding: .5em;
+		}
+
+	li {
+		width: 100%;
+		margin: auto;
 	}
 	.hero-image button {
 		display: none;
@@ -231,12 +257,36 @@ img{
 		display: inline-flex;
 		flex-direction: rtl;
 		justify-content: space-between; 
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	#social {
+			height: 300px;
+		}
 }
 
-	img{
-		width: 75px;
-		margin: 0 auto;
-		padding: .5em;
+@media only screen and (max-width: 575px) {
+	
+	#social {
+			height: 300px;
+		}
 }
 
-}
+@media only screen and (max-width: 450px) {
+		
+		.shows {
+			height: 300px;
+		}
+
+		#social {
+			height: 250px;
+		}
+
+		#past { 
+			display: none; }
+
+		body {
+			font-size: 16px;
+		}
+	}
