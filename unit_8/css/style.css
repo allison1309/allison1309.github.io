@@ -51,7 +51,7 @@ h1{
 	font-size: 3.5em;
 	text-align: center;
 	line-height: 1.15;
-	padding-top: 40px;
+	padding-top: 3em;
 }
 
 div>h1{
@@ -320,20 +320,7 @@ img{
 	}
 
 	@media only screen and (max-width: 320px) {
-		.hero-image{
-			background-image: url(../images/FreeSnacks.jpg);
-			background-repeat: no-repeat;
-		  	background-position: right top;
-		  	background-size: 100% auto;
-			text-align: center;
-		 	overflow: hidden;
-		 	height: 65vw;
-		 	background-color: gray;
-		 	display: flex;
-		 	justify-content: space-between;
-		 	flex-direction: column;
-			 	align-items: center;
-		 	max-height: 1000px;
-		 	padding: 20px;
- }
+		h1{
+			padding-top: 0;
+			}
 	}
