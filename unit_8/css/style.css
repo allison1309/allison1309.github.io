@@ -321,11 +321,19 @@ img{
 
 	@media only screen and (max-width: 320px) {
 		h1{
-			padding-top: 0;
+			padding-top: 18px;
 			}
+
 		.shows {
 			height: 375px;
 		}
-
+		#social-container{
+			width: 100%;
+			display: inline-flex;
+			flex-direction: rtl;
+			justify-content: space-between; 
+			padding-left: 1em;
+			padding-right: 1em;
+		}
 
 	}
