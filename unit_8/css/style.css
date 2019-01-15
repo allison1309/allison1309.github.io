@@ -272,7 +272,7 @@ img{
 		}
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 475px) {
 		
 		.shows {
 			height: 300px;
@@ -319,11 +319,11 @@ img{
 			}
 
 		.shows {
-			height: 375px;
+			height: 400px;
 		}
 		#social-container{ 
-			padding-left: 1em;
-			padding-right: 1em;
+			padding-left: .5em;
+			padding-right: .5em;
 		}
 
 	}
