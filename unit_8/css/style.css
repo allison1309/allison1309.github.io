@@ -312,12 +312,9 @@ img{
 		h1 { 
 		font-size: 3em; 
 		}
-
-	.hero-image{
-			padding: 0 0 .5em 0;
- 		}
-
 	}
+
+	@media only screen and (min-width: 320px) and (max-width: )
 
 	@media only screen and (max-width: 320px) {
 		h1{
@@ -327,11 +324,7 @@ img{
 		.shows {
 			height: 375px;
 		}
-		#social-container{
-			width: 100%;
-			display: inline-flex;
-			flex-direction: rtl;
-			justify-content: space-between; 
+		#social-container{ 
 			padding-left: 1em;
 			padding-right: 1em;
 		}
