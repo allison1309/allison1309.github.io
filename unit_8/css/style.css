@@ -25,7 +25,7 @@ nav{
 nav a{
 	text-decoration: none;
 	color: #DFE8E8;
-	padding: .555em;
+	padding: .556em;
 	white-space: nowrap;
 	font-size: 16px;
 	display: block;
@@ -116,7 +116,13 @@ ul li{
 
 ol {
 	list-style-type: decimal;
+	padding-left: 2.5em;
 }
+
+ol li{
+	padding-top: 1em;
+}
+
 p{
 	
 	padding: 0.5em;
@@ -171,6 +177,17 @@ img{
 	width: 75px;
 	display: block;
 	margin: 0 auto;
+}
+
+aside{
+	float: right;
+	border: 1px solid black;
+	margin: .5em;
+}
+
+
+aside li {
+	padding: .25em .25em;
 }
 
 .home {float: left;
@@ -248,8 +265,6 @@ img{
 @media only screen and (max-width: 780px) {
 	
 	label {
-		color: #DFE8E8;
-		padding: .5em;
 		display: block;
 		}
 
