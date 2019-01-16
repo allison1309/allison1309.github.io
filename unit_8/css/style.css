@@ -15,25 +15,54 @@ body {
 nav{
 	padding: 10px;
 	background: black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
 }
 
 
 nav a{
-	float: right;
 	text-decoration: none;
 	color: #DFE8E8;
+	padding: .555em;
+	white-space: nowrap;
+	font-size: 16px;
 	display: block;
-	padding: .5em;
-	display: none;
+	width: 70px;
+}
+
+menu {
+	width: 0;
+	text-align: right;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	transition: width 800ms;
+}
+
+
+input {
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 30px;
+	height:30px;
+	opacity: 0;
+}
+
+
+input:checked + menu {
+	width: 320px;
 }
 
 label {
-	float: right;
-	text-decoration: none;
 	color: #DFE8E8;
-	display: block;
 	padding: .5em;
-	display:none;
+	display: none;
 	
 }
 
@@ -217,18 +246,13 @@ img{
 }
 
 @media only screen and (max-width: 780px) {
-	/*nav a {
-		margin: 0 auto;
-		float: right;
-	}*/
-
-	label{
+	
+	label {
+		color: #DFE8E8;
+		padding: .5em;
 		display: block;
-	}
+		}
 
-	#toggle:checked + nav {
-		display: block;
-	}
 
 	img{
 		width: 75px;
@@ -263,7 +287,12 @@ img{
 	#social {
 			height: 300px;
 		}
+
+	iframe {
+		width: 100%;
+	}
 }
+
 
 @media only screen and (max-width: 575px) {
 	
