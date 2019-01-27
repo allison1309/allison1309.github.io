@@ -119,11 +119,12 @@ ol {
 	padding-left: 3em;
 	padding-bottom: 1em;
 	max-width: 800px;
+	margin: auto;
 }
 
 ol li{
 	padding-top: 1em;
-	margin: 0;
+	
 }
 
 p{
@@ -184,18 +185,27 @@ img{
 
 aside{
 	border: 1px solid black;
-	margin: 1em;
+	margin: 0 auto;
+	width: 75%;
+	max-width: 850px;
 }
 
 
 aside li {
-	padding: .25em .25em;
+	padding: .25em .5em;
+	margin: 0;
 }
 
 hr {
-	border:2px;
-	border-color: black;
+  border: 0;
+  clear:both;
+  display:block;
+  width: 75%;               
+  background-color:#A9A9A9;
+  height: 1px;
+  margin: auto;
 }
+
 .recipe img{
 	width: 70%;
 	padding: 1em
